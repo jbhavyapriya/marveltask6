@@ -1,0 +1,11 @@
+last|grep Mon>filename(file100.txt)
+mkdir logs 
+mv file100.txt /home/jbhavya/logs
+tar cvf filename.tar filename 
+gzip -v filename.tar.gz
+
+
+
+here Mon is the word to searches using grep in timestamp,file100.txt is
+the file name and /home/jbhavya/logs is the path to move the file into directory
+and the last two steps are to zip the file
